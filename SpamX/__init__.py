@@ -113,6 +113,11 @@ async def SpamX():
     global RiZoeL18
     global RiZoeL19
     global RiZoeL20
+    global RiZoeL21
+    global RiZoeL22
+    global RiZoeL23
+    global RiZoeL24
+    global RiZoeL25
     
     if SESSION2:
          RiZoeL2 = Client(name="SESSION2", api_id = API_ID, api_hash = API_HASH, session_string=SESSION2, plugins=dict(root="SpamX.module"))
