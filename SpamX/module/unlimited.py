@@ -25,7 +25,7 @@ async def fastspam(xspam: Client, e: Message):
            return await e.reply_text("**Sorry !! i Can't Spam Here.**")
     msg = str(e.text[6:])
     if re.search(Owners.lower(), msg.lower()):
-         return await e.reply("**Sorry !!** I can't Spam On @RiZoeLX's owner")
+         return await e.reply("**Sorry !!** I can't Spam On @Wtf_Error_xD's owner")
     try:
        while unlimited == True:
            await xspam.send_message(e.chat.id, msg)
@@ -54,7 +54,7 @@ async def raid(xspam: Client, e: Message):
           ok = await xspam.get_users(Rizoel[0])
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @RiZoeLX's Owner"
+                text = f"I can't raid on @Wtf_Error_xD's Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is the Owner Of these Bots."
@@ -83,7 +83,7 @@ async def raid(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @RiZoeLX's Owner"
+                text = f"I can't raid on @Wtf_Error_xD's Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy the Owner Of these Bots."
