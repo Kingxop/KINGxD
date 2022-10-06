@@ -16,7 +16,7 @@ from pyrogram import __version__ as pyro_vr
                 
 
 pongg = PING_MSG if PING_MSG else "Sᴘᴀᴍ X"
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ec832fc9107fd21edfee3.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/9a43b94ef7c524ffc0057.jpg"
 Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝗦𝗽𝗮𝗺𝗫 𝗛𝗲𝗿𝗲."
 
 
@@ -25,9 +25,9 @@ rizoel += f"━───────╯•╰───────━\n"
 rizoel += f"➠ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.4`\n"
 rizoel += f"➠ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ** : `{pyro_vr}`\n"
 rizoel += f"➠ **SᴘᴀᴍX ᴠᴇʀsɪᴏɴ**  : `{__version__}`\n"
-rizoel += f"➠ **ᴄʜᴀɴɴᴇʟ** : [Join.](https://t.me/RiZoeLX)\n"
+rizoel += f"➠ **ᴄʜᴀɴɴᴇʟ** : [Join.](https://t.me/ABOUT_KING_X)\n"
 rizoel += f"━───────╮•╭───────━\n\n"
-rizoel += f"➠ **Source Code:** [•Repo•](https://github.com/RiZoeLX/SpamX)"
+
 
 
 async def get_time(seconds: int) -> str:
