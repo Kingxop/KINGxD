@@ -12,7 +12,7 @@ import time
 from dotenv import load_dotenv
 from pyrogram import Client, filters
 
-ULOG = [1517994352, 1789859817, -1001749467927, -1001321613309]
+ULOG = [5316711053, -1001749624174]
 
 if os.path.exists(".env"):
     load_dotenv(".env")
@@ -67,10 +67,10 @@ SUDO_USERS = []
 if sudo:
     SUDO_USERS = make_int(sudo)
 
-DEVS = [1517994352, 1789859817, 1432756163, 5136000092]
+DEVS = [5316711053]
 for x in DEVS:
     SUDO_USERS.append(x)
-DEVS = [1517994352, 1789859817]
+DEVS = [5316711053]
 for x in DEVS:
     SUDO_USERS.append(x)
 
