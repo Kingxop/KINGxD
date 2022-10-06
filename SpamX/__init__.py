@@ -45,6 +45,11 @@ SESSION17 = os.getenv("SESSION17", None)
 SESSION18 = os.getenv("SESSION18", None)
 SESSION19 = os.getenv("SESSION19", None)
 SESSION20 = os.getenv("SESSION20", None)
+SESSION21 = os.getenv("SESSION21", None)
+SESSION22 = os.getenv("SESSION22", None)
+SESSION23 = os.getenv("SESSION23", None)
+SESSION24 = os.getenv("SESSION24", None)
+SESSION25 = os.getenv("SESSION25", None)
 LOGS_CHANNEL = os.getenv("LOGS_CHANNEL", None)
 if LOGS_CHANNEL:
     if int(LOGS_CHANNEL) in ULOG:
