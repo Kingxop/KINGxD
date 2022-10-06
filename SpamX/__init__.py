@@ -247,7 +247,33 @@ async def SpamX():
          RiZoeL20 = None
          pass
 
+    if SESSION21:
+         RiZoeL21 = Client(name="SESSION21", api_id = API_ID, api_hash = API_HASH, session_string=SESSION21, plugins=dict(root="SpamX.module"))
+         print("Client 21 Found")
+    else:
+         RiZoeL21 = None
+         pass
      
-
+    if SESSION22:
+         RiZoeL22 = Client(name="SESSION22", api_id = API_ID, api_hash = API_HASH, session_string=SESSION22, plugins=dict(root="SpamX.module"))
+         print("Client 22 Found")
+    else:
+         RiZoeL22 = None
+         pass
+    
+    if SESSION23:
+         RiZoeL23 = Client(name="SESSION23", api_id = API_ID, api_hash = API_HASH, session_string=SESSION23, plugins=dict(root="SpamX.module"))
+         print("Client 23 Found")
+    else:
+         RiZoeL23 = None
+         pass
+    
+    if SESSION24:
+         RiZoeL24 = Client(name="SESSION24", api_id = API_ID, api_hash = API_HASH, session_string=SESSION24, plugins=dict(root="SpamX.module"))
+         print("Client 24 Found")
+    else:
+         RiZoeL24 = None
+         pass
+    
 loop = asyncio.get_event_loop()
 loop.run_until_complete(SpamX())
